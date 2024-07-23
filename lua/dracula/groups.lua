@@ -128,6 +128,25 @@ local function setup(configs)
 
       EndOfBuffer = endOfBuffer,
 
+      -- Colors
+      Black = { fg = colors.black },
+      Blue = { fg = colors.comment },
+      Cyan = { fg = colors.cyan },
+      Green = { fg = colors.green },
+      Orange = { fg = colors.orange },
+      Pink = { fg = colors.pink },
+      Purple = { fg = colors.purple },
+      Red = { fg = colors.red },
+      Yellow = { fg = colors.yellow },
+      White = { fg = colors.white },
+      BrightRed = { fg = colors.bright_red },
+      BrightGreen = { fg = colors.bright_green },
+      BrightYellow = { fg = colors.bright_yellow },
+      BrightBlue = { fg = colors.bright_blue },
+      BrightMagenta = { fg = colors.bright_magenta },
+      BrightCyan = { fg = colors.bright_cyan },
+      BrightWhite = { fg = colors.bright_white },
+
       -- TreeSitter
       ['@error'] = { fg = colors.bright_red, },
       ['@punctuation.delimiter'] = { fg = colors.fg, },
@@ -481,9 +500,17 @@ local function setup(configs)
       rainbowcol7 = { fg = colors.fg },
 
       -- Rainbow delimiter
+      RainbowRed = { fg = colors.fg },
+      RainbowYellow = { fg = colors.pink },
+      RainbowBlue = { fg = colors.cyan },
+      RainbowOrange = { fg = colors.green },
+      RainbowGreen = { fg = colors.purple },
+      RainbowViolet = { fg = colors.orange },
+      RainbowCyan = { fg = colors.fg },
+
       RainbowDelimiterRed = { fg = colors.fg },
-      RainbowDelimiterYellow = {fg = colors.pink },
-      RainbowDelimiterBlue = {fg = colors.cyan },
+      RainbowDelimiterYellow = { fg = colors.pink },
+      RainbowDelimiterBlue = { fg = colors.cyan },
       RainbowDelimiterOrange = { fg = colors.green },
       RainbowDelimiterGreen = { fg = colors.purple },
       RainbowDelimiterViolet = { fg = colors.orange },
