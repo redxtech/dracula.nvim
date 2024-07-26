@@ -584,6 +584,41 @@ local function setup(configs)
       NotifyWarnIcon = { fg = colors.orange },
       NotifyWarnTitle = { fg = colors.orange },
       NotifyWarnBorder = { fg = "#785637" },
+
+      ModeReplace = { fg = colors.red },
+      ModeSelect = { fg = colors.purple },
+      ModeCommand = { fg = colors.red },
+      ModeVisual = { fg = colors.pink },
+      ModeInsert = { fg = colors.cyan },
+      ModeNormal = { fg = colors.green },
+      -- Mode line
+
+      -- BarBar
+      BufferOffset = { fg = colors.fg, bg = colors.bg },
+      BufferCurrentMod = { fg = colors.pink, bold = true },
+
+      -- WinBar
+      WinBar = { fg = colors.fg, bg = colors.bg },
+
+      -----------
+      -- Blink --
+      -----------
+
+      -- Blink Indent
+      BlinkIndent = { fg = colors.nontext },
+
+      -- Blink Tree
+      BlinkTreeGitConflict = { fg = colors.red },
+      BlinkTreeGitAdded = { fg = colors.green },
+      BlinkTreeGitModified = { fg = colors.pink, italic = true },
+      BlinkTreeGitStaged = { fg = colors.cyan },
+      BlinkTreeModified = { fg = colors.pink },
+      BlinkTreeIndent = { fg = colors.white },
+      BlinkTreeNormalNC = { bg = colors.bg },
+      BlinkTreeNormal = { bg = colors.bg },
+      BlinkTreeGitUntracked = { fg = colors.orange },
+      BlinkTreeFlagCopy = { fg = colors.blue, italic = true },
+      BlinkTreeFlagCut = { fg = colors.green, italic = true },
    }
 end
 
