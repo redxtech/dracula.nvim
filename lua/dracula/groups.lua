@@ -130,7 +130,7 @@ local function setup(configs)
 
       -- Colors
       Black = { fg = colors.black },
-      Blue = { fg = colors.comment },
+      Blue = { fg = colors.blue },
       Cyan = { fg = colors.cyan },
       Green = { fg = colors.green },
       Orange = { fg = colors.orange },
@@ -500,13 +500,14 @@ local function setup(configs)
       rainbowcol7 = { fg = colors.fg },
 
       -- Rainbow delimiter
-      RainbowRed = { fg = colors.fg },
-      RainbowYellow = { fg = colors.pink },
-      RainbowBlue = { fg = colors.cyan },
-      RainbowOrange = { fg = colors.green },
-      RainbowGreen = { fg = colors.purple },
-      RainbowViolet = { fg = colors.orange },
-      RainbowCyan = { fg = colors.fg },
+      RainbowRed = { fg = colors.red },
+      RainbowYellow = { fg = colors.yellow },
+      RainbowBlue = { fg = colors.blue },
+      RainbowOrange = { fg = colors.orange },
+      RainbowGreen = { fg = colors.green },
+      RainbowViolet = { fg = colors.purple },
+      RainbowPurple = { fg = colors.purple },
+      RainbowCyan = { fg = colors.cyan },
 
       RainbowDelimiterRed = { fg = colors.fg },
       RainbowDelimiterYellow = { fg = colors.pink },
@@ -573,6 +574,7 @@ local function setup(configs)
       DapUIWinSelect = { fg = colors.bright_cyan, bold = true },
 
       -- Notify
+      NotifyBackground = { bg = colors.bg },
       NotifyInfoIcon = { fg = colors.green },
       NotifyInfoTitle = { fg = colors.green },
       NotifyInfoBorder = { fg = "#2C453F" },
