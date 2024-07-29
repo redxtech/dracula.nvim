@@ -118,7 +118,7 @@ local function setup(configs)
 		SpellRare = { fg = colors.yellow },
 
 		TabLine = { fg = colors.comment },
-		TabLineSel = { fg = colors.white },
+		-- TabLineSel = { fg = colors.white },
 		TabLineFill = { bg = colors.bg },
 		Terminal = { fg = colors.white, bg = colors.black },
 		Visual = { bg = colors.visual },
@@ -351,11 +351,9 @@ local function setup(configs)
 		NeoTreeIndentMarker = { fg = colors.nontext },
 		NeoTreeDotfile = { fg = colors.comment },
 
-		-- Bufferline
-		BufferLineIndicatorSelected = { fg = colors.purple },
-		BufferLineFill = { bg = colors.black },
-		BufferLineBufferSelected = { bg = colors.bg },
-		BufferLineSeparator = { fg = colors.black },
+		-- BufferLine
+		TabLineSel = { bg = colors.purple },
+		BufferLineIndicatorSelected = { fg = colors.purple, bold = true },
 
 		-- LSP
 		DiagnosticError = { fg = colors.red },
