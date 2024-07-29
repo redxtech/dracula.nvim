@@ -5,6 +5,21 @@
 ![dracula.nvim](./assets/showcase.png)
 
 
+## Difference from [upstream](https://github.com/Mofiqul/dracula-nvim)
+
+- Added a nix flake to build & consume the plugin
+- Support for [blink-nvim](https://github.com/saghen/blink.nvim)
+- Support for [blink-cmp](https://github.com/saghen/blink.cmp)
+- Support for [barbar](https://github.com/romgrk/barbar.nvim)
+- Support for [winbar](https://github.com/fgheng/winbar.nvim)
+- Support for mode indicators
+- Fixed RainbowDelimiter colors
+- Added generic '<Color>' and 'Rainbow<Color>' highlight groups
+- Added `blue` and `darkgray` to the palette
+- Added pink rainbow highlight group
+- Applied stylua
+
+
 ## ✔️ Requirements
 
 - Neovim >= 0.9.2
