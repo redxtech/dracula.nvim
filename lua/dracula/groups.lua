@@ -509,6 +509,7 @@ local function setup(configs)
 		RainbowOrange = { fg = colors.orange },
 		RainbowGreen = { fg = colors.green },
 		RainbowViolet = { fg = colors.purple },
+		RainbowPink = { fg = colors.pink },
 		RainbowPurple = { fg = colors.purple },
 		RainbowCyan = { fg = colors.cyan },
 
