@@ -2,6 +2,11 @@
 return {
 	bg = '#282A36',
 	fg = '#F8F8F2',
+	base0 = '#f8f8f2', -- foreground
+	base01 = '#6272a4', -- comment
+	base02 = '#44475A', -- background highlight
+	base03 = '#282a36', -- background
+	base04 = '#21222c', -- background shade
 	selection = '#44475A',
 	comment = '#6272A4',
 	blue = '#6272A4',

@@ -586,17 +586,27 @@ local function setup(configs)
 		NotifyWarnTitle = { fg = colors.orange },
 		NotifyWarnBorder = { fg = '#785637' },
 
-		ModeReplace = { fg = colors.red },
-		ModeSelect = { fg = colors.purple },
-		ModeCommand = { fg = colors.red },
-		ModeVisual = { fg = colors.pink },
-		ModeInsert = { fg = colors.cyan },
-		ModeNormal = { fg = colors.green },
 		-- Mode line
+		ModeNormal = { fg = colors.green },
+		ModeInsert = { fg = colors.cyan },
+		ModeVisual = { fg = colors.pink },
+		ModeCommand = { fg = colors.red },
+		ModeSelect = { fg = colors.purple },
+		ModeReplace = { fg = colors.red },
+
+		-- Markview
+		MarkviewCol1Fg = { fg = colors.pink },
+		MarkviewCol2Fg = { fg = colors.cyan },
+		MarkviewCol3Fg = { fg = colors.green },
+		MarkviewCol4Fg = { fg = colors.purple },
+		MarkviewCol5Fg = { fg = colors.orange },
+		MarkviewCol6Fg = { fg = colors.red },
+		MarkviewCol7Fg = { fg = colors.blue },
+		MarkviewCol8Fg = { fg = colors.yellow },
 
 		-- BarBar
-		BufferOffset = { fg = colors.fg, bg = colors.bg },
 		BufferCurrentMod = { fg = colors.pink, bold = true },
+		BufferOffset = { fg = colors.fg, bg = colors.bg },
 
 		-- WinBar
 		WinBar = { fg = colors.fg, bg = colors.bg },

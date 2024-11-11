@@ -4,7 +4,6 @@
 
 ![dracula.nvim](./assets/showcase.png)
 
-
 ## Difference from [upstream](https://github.com/Mofiqul/dracula-nvim)
 
 - Added a nix flake to build & consume the plugin
@@ -18,7 +17,6 @@
 - Added `blue` and `darkgray` to the palette
 - Added pink rainbow highlight group
 - Applied stylua
-
 
 ## ✔️ Requirements
 
@@ -91,6 +89,7 @@ require('lualine').setup {
 ```
 
 If you are using [LazyVim](https://github.com/LazyVim/LazyVim), you can add this to your plugins/colorscheme.lua file:
+
 ```lua
 return {
   -- add dracula
