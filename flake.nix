@@ -21,7 +21,7 @@
         packages = {
           dracula-nvim = pkgs.vimUtils.buildVimPlugin {
             pname = "dracula-nvim";
-            version = "2024-07-25";
+            version = "2024-11-11";
 
             src = ./.;
           };
